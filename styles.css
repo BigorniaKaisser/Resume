@@ -1,5 +1,5 @@
-
-* {
+*
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #00224D;
+    background: linear-gradient(#074173,#1679AB,#5DEBD7,#C5FF95);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@ body {
 
 .container .left_side {
     position: relative;
-    background: #A0153E;
+    background:#074173;
     padding: 40px;
 }
 
@@ -99,9 +99,9 @@ body {
 
 .contactinfo ul li .icon {
     display: inline-block;
-    width: 30px;
+    width: 20px;
     font-size: 18px;
-    color: #FF204E;
+    color: #5DEBD7;
 }
 
 .contactinfo ul li .text {
@@ -109,9 +109,13 @@ body {
     font-weight: 300;
 }
 
+.contactinfoEducation {
+    margin-top: 25px;
+}
+
 .contactinfoEducation li {
     margin-bottom: 15px;
-    color: #FF204E;
+    color: #5DEBD7;
 }
 
 .contactinfoEducation h4 {
@@ -146,7 +150,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    background: #FF204E;
+    background: #5DEBD7;
 }
 
 .container .right_side {
@@ -164,7 +168,7 @@ body {
 }
 
 .title2 {
-    color: #5D0E41;
+    color: #1679AB;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -201,7 +205,7 @@ p {
     top: 0;
     left: 0;
     height: 100%;
-    background: #FF204E;
+    background: #5DEBD7;
 }
 
 .interest {
@@ -221,7 +225,12 @@ p {
 }
 
 .interest ul li .fas {
-    color: #FF204E;
+    color: #5DEBD7;
+    font-size: 10px;
+    width: 20px;
+}
+.interest ul li .fa-regular {
+    color: #5DEBD7;
     font-size: 10px;
     width: 20px;
 }
@@ -231,7 +240,7 @@ p {
 }
 
 .schedule .title3 {
-    color: #5D0E41;
+    color: #1679AB;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -239,19 +248,33 @@ p {
 
 .schedule table {
     border-collapse: collapse;
-
 }
 
 .schedule td, .schedule th {
     border: 5px solid white;
     padding: 10px;
+    font-size: medium;
+    font-weight: 100%;
 }
 
 .imgthatilike {
-    margin-top: 20px; 
+    margin-top: 20px;
+    padding: 10 px;
+}
+.titleimg {
+    color: #1679AB;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
 }
 
-.foot {
-    position: relative, center;
-    background: #333;
+.imgthatilike table {
+    border-collapse: collapse;
+}
+
+.imgthatilike td {
+    border: 5px solid white;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 100%;
 }
