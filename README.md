@@ -1,2 +1,2 @@
-# KABIGORNIA-MIDTERMEXAM
+# KABIGORNIA-Resume
 Midterm exam
